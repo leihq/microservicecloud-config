@@ -45,7 +45,7 @@ info:
   
 ---
 server:
-  port: 8002
+  port: 8001
   
 spring:
   profiles: test
@@ -73,7 +73,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: dept_8002 #自定义服务名称信息
+    instance-id: dept_8001 #自定义服务名称信息
     prefer-ip-address: true #访问路径可以显示IP地址
     
 info: 
